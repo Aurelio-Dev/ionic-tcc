@@ -1,0 +1,62 @@
+
+
+<ion-content padding fullscreen>
+
+  
+      <ion-item lines="none" color="transparent" style="margin-top: 20px;">
+        <ion-grid>
+          <ion-row>
+            <ion-col></ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col></ion-col>
+            <ion-col><ion-label class="powered">powered by</ion-label></ion-col>
+            <ion-col></ion-col>
+            <ion-col></ion-col>
+            <ion-col></ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col  text-center>
+              <ion-label class="logo" style="display: inline;">ETEC</ion-label><ion-label class="apps" style="display: inline;">APPS</ion-label>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-item>
+  <ion-item lines="none" color="transparent">
+    <ion-grid>
+      <ion-row>
+        <ion-col></ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col><ion-img class="image" src="/assets/img/Grupo 57.png"    width = "110px"></ion-img></ion-col>
+      </ion-row>
+    </ion-grid>
+    
+  </ion-item>
+  <br>
+  
+
+    <ion-item color="transparent" lines="none">
+      
+      <ion-input type="email" placeholder="R.A" [(ngModel)]='userLogin.email'><ion-icon class="icons" name="person"></ion-icon></ion-input>
+
+    </ion-item>
+
+  
+    <br>
+
+    <ion-item color="transparent" lines="none">
+      <ion-input  type="password" placeholder="SENHA" [(ngModel)]='userLogin.password'><ion-icon class="icons" name="lock"></ion-icon></ion-input>
+    </ion-item>
+<ion-grid>
+  <ion-row justify-content-center align-items-center style="height: 100%; flex-direction: column">
+      <ion-button (click)="login(userLogin)" 
+      size="medium" shape="round"  expand="block" class="btn2">ENTRAR</ion-button>
+      
+
+      <ion-button (click)="esqueceu()"  fill="clear"
+     size="medium" shape="round" color="light" expand="block" class="btn">Esqueceu a senha?</ion-button>
+
+  </ion-row>
+</ion-grid>
+</ion-content>

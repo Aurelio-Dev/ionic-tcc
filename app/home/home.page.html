@@ -1,0 +1,70 @@
+<!-- https://ionicframework.com/docs/v3/native/http/-->
+
+<ion-header>
+  <ion-toolbar class="tool">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+
+    <ion-buttons slot="end">
+      <ion-button (click)="logout()"><ion-icon name="log-out"  class="logout" style="color: #48ACF0;"></ion-icon></ion-button>
+        
+    </ion-buttons>
+    <ion-title class="title">
+      Portal do Aluno
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  
+  
+    <ion-slides pager="true" [options]="slideOpts" style="height: 100%">
+        <ion-slide class="slide">
+          <lottie-animation-view [options]="lottieConfig" [width]="200" [height]="220"></lottie-animation-view>
+          <ion-label>Dados Pessoais</ion-label>
+          
+          <p>Acessando esse serviço você pode consultar seus dados pessoais.</p>
+      
+          <ion-button size="large" class="firstbutton" expand="block" shape="round" (click)="acessarDados()" >ACESSAR</ion-button>
+        </ion-slide>
+        <ion-slide  class="slide">
+
+            <lottie-animation-view [options]="lottieConfig2" [width]="200" [height]="200"></lottie-animation-view>
+            <ion-label>Boletim Escolar</ion-label>
+          <p>Acessando esse serviço você pode consultar seu boletim escolar.</p><br>
+          <ion-button size="large"  class="secondbutton" expand="block" shape="round" (click)="acessarBoletim()" >ACESSAR</ion-button>
+        </ion-slide>
+        <ion-slide  class="slide">
+            <lottie-animation-view [options]="lottieConfig3" [width]="200" [height]="200"></lottie-animation-view>
+            <ion-label>Histórico Escolar</ion-label>
+          <p>Acessando esse serviço você pode consultar seu historico escolar.</p><br>
+          <ion-button size="large" class="tirtlebutton" expand="block" shape="round" (click)="acessarHistorico()">ACESSAR</ion-button>
+        </ion-slide>
+      </ion-slides>
+
+
+
+    
+  
+        
+    
+
+
+
+
+   
+      
+          
+       
+
+
+
+    
+              
+      
+            
+    
+     
+   
+</ion-content>

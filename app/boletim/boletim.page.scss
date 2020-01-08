@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,900|Open+Sans:400,400i&display=swap');
+
+.title{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+.text{
+  font-family: 'Open Sans' , sans-serif;
+}
+.container {
+  --background: #0F2332;
+  width: 100%;
+  overflow: hidden; 
+  white-space: nowrap;
+  ::-webkit-scrollbar {
+    display: none;
+    
+  }
+  .scroll {
+    overflow: auto;
+  }
+}
+
+ion-col{
+border: thin solid #949494;
+min-width: 150px;
+}
+
+.boletim{
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  color:  rgb(47, 144, 209);
+}
+

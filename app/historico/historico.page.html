@@ -1,0 +1,46 @@
+<ion-header no-border>
+    <ion-toolbar color="transparent">
+        <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+          </ion-buttons>
+         
+      <ion-title class="title">Historico Escolar</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+<ion-content>
+    <lottie-animation-view [options]="lottieConfig" [width]="200" [height]="200"></lottie-animation-view>
+
+    <ion-item lines="full"></ion-item>
+    <ion-item>
+      <ion-label class="text">Número do R.A</ion-label>
+      <ion-input type="text"class="text" ></ion-input>
+    </ion-item>
+    
+      <ion-list>
+        <ion-item>
+          <ion-label class="text">Ano Letivo</ion-label>
+          <ion-select placeholder="Selecione">
+            <ion-select-option value="2019" class="text">2019</ion-select-option>
+            <ion-select-option value="2020" class="text">2020</ion-select-option>
+            <ion-select-option value="2021" class="text">2021</ion-select-option>
+            <ion-select-option value="2022" class="text">2022</ion-select-option>
+            <ion-select-option value="2023" class="text">2023</ion-select-option>
+          </ion-select>
+        </ion-item>
+      </ion-list>
+
+      <ion-list class="text">
+        <ion-item class="text">
+          <ion-label class="text">Semestre</ion-label>
+          <ion-select placeholder="Selecione">
+            <ion-select-option value="1" class="text">1 Semestre</ion-select-option>
+            <ion-select-option value="2" class="text">2 Semestre</ion-select-option>
+          </ion-select>
+        </ion-item>
+      </ion-list>
+  
+      <ion-button class="btn" expand="full" shape="round" (click)="solicitar()">SOLICITAR</ion-button>
+    
+
+</ion-content>

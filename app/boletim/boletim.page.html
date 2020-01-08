@@ -1,0 +1,254 @@
+<ion-header no-border>
+  <ion-toolbar color="transparent">
+      <ion-buttons slot="start">
+          <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+      
+    <ion-title class="title">Boletim Escolar</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <lottie-animation-view [options]="lottieConfig" [width]="200" [height]="200"></lottie-animation-view>
+
+  <ion-item text-center lines="none">
+  <ion-label class="boletim">NOTAS ESCOLARES</ion-label>
+</ion-item>
+  <div class="container">
+      <div class="scroll" scrollX="true">
+        <ion-grid >
+          
+          <ion-row nowrap class="row" >
+            <ion-col class="col" ><ion-label class="text">Professor</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">Matéria</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">1 Bimestre</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">2 Bimestre</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">3 Bimestre</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">4 Bimestre</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">Recuperação</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">Conceito Final</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">Resultado</ion-label></ion-col>
+
+          </ion-row>
+          <ion-row nowrap class="row">
+            <ion-col class="col"><ion-label class="text">Carlos</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">Língua Portuguesa</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">MB</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">B</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">R</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">MB</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">50</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">50</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">Aprovado</ion-label></ion-col>
+
+          </ion-row>
+          <ion-row nowrap class="row">
+            <ion-col class="col"><ion-label class="text">Betina</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">Matemática</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">R</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">R</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">B</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">MB</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">50</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">50</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">Aprovado</ion-label></ion-col>
+          </ion-row>
+          <ion-row nowrap class="row">
+            <ion-col class="col"><ion-label class="text">Jacquin</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">Geografia</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">R</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">R</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">B</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">MB</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">50</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">50</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">Aprovado</ion-label></ion-col>
+          </ion-row>
+          <ion-row nowrap class="row">
+            <ion-col class="col"><ion-label class="text">Martha</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">História</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">R</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">R</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">B</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">MB</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">50</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">50</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">Aprovado</ion-label></ion-col>
+
+          </ion-row>
+          <ion-row nowrap class="row">
+            <ion-col class="col"><ion-label class="text">Ronaldo</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">Inglês</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">R</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">R</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">B</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">MB</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">50</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">50</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">Aprovado</ion-label></ion-col>
+
+          </ion-row>
+          <ion-row nowrap class="row">
+            <ion-col class="col"><ion-label class="text">Beto</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">Física</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">R</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">R</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">B</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">MB</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">50</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">50</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">Aprovado</ion-label></ion-col>
+
+          </ion-row>
+          <ion-row nowrap class="row">
+            <ion-col class="col"><ion-label class="text">Levi Macumbeiro</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">Biologia</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">R</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">R</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">B</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">MB</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">50</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">50</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">Aprovado</ion-label></ion-col>
+
+          </ion-row>
+          <ion-row nowrap class="row">
+            <ion-col class="col"><ion-label class="text">João Pedro</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">Química</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">R</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">R</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">B</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">MB</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">50</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">50</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">Aprovado</ion-label></ion-col>
+
+          </ion-row>
+          
+  
+        </ion-grid>
+          
+      </div>
+  </div>
+
+  <ion-item text-center lines="none">
+      <ion-label class="boletim">FREQUÊNCIA</ion-label>
+    </ion-item>
+  <div class="container">
+      <div class="scroll" scrollX="true">
+        <ion-grid >
+          
+          <ion-row nowrap class="row" >
+            <ion-col class="col" ><ion-label class="text">Professor</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">Matéria</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">1 Bimestre</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">2 Bimestre</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">3 Bimestre</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">4 Bimestre</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">Permitido</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">Total</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">Media (%)</ion-label></ion-col>
+
+          </ion-row>
+          <ion-row nowrap class="row">
+            <ion-col class="col"><ion-label class="text">Carlos</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">Língua Portuguesa</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">2</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">6</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">1</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">7</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">15</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">6</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">80</ion-label></ion-col>
+
+          </ion-row>
+          <ion-row nowrap class="row">
+            <ion-col class="col"><ion-label class="text">Betina</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">Matemática</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">2</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">6</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">1</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">7</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">15</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">6</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">80</ion-label></ion-col>
+
+          </ion-row>
+          <ion-row nowrap class="row">
+            <ion-col class="col"><ion-label class="text">Jacquin</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">Geografia</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">2</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">6</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">1</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">7</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">15</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">6</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">80</ion-label></ion-col>
+
+          </ion-row>
+          <ion-row nowrap class="row">
+            <ion-col class="col"><ion-label class="text">Martha</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">História</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">2</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">6</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">1</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">7</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">15</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">6</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">80</ion-label></ion-col>
+
+          </ion-row>
+          <ion-row nowrap class="row">
+            <ion-col class="col"><ion-label class="text">Ronaldo</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">Inglês</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">2</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">6</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">1</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">7</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">15</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">6</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">80</ion-label></ion-col>
+
+          </ion-row>
+          <ion-row nowrap class="row">
+            <ion-col class="col"><ion-label class="text">Beto</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">Física</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">2</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">5</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">3</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">4</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">15</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">6</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">80</ion-label></ion-col>
+
+          </ion-row>
+          <ion-row nowrap class="row">
+            <ion-col class="col"><ion-label class="text">Levi Macumbeiro</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">Biologia</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">2</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">5</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">3</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">4</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">15</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">6</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">80</ion-label></ion-col>
+
+          </ion-row>
+          <ion-row nowrap class="row">
+            <ion-col class="col"><ion-label class="text">João Pedro</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">Química</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">2</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">5</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">3</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">4</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">15</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">6</ion-label></ion-col>
+            <ion-col class="col"><ion-label class="text">80</ion-label></ion-col>
+
+          </ion-row>
+          
+  
+        </ion-grid>
+      </div>
+  </div>
+</ion-content>

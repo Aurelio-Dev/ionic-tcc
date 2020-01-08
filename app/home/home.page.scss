@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,900|Open+Sans:400,400i&display=swap');
+
+p{
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 15px;
+}
+.title{
+  font-family: 'Montserrat', sans-serif;
+}
+.firstbutton{
+  
+  margin-top: 20px;
+  --background: #2E294E;
+  color: #ffffff;
+  font-weight: 900;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.secondbutton{
+  --background: #2E294E;
+  color: #ffffff;
+  font-weight: 900;
+  font-family: 'Montserrat', sans-serif;
+}
+.tirtlebutton{
+  --background: #2E294E;
+  color: #ffffff;
+  font-weight: 900;
+  font-family: 'Montserrat', sans-serif;
+}
+ion-slide{
+display: block;
+
+}
+
+lottie-animation-view {
+  display: block;
+}
+
+ion-slides {
+  /**--background: linear-gradient(197deg, rgba(100,100,100,1) 0%, rgba(63,63,63,1) 13.5%, rgba(29,29,29,1) 33.33%, rgba(0,0,0,1) 100%) !important; 
+  **/
+  
+/**--background: linear-gradient(25deg, #EE7752 0%, #E73C7E 25%, #23A6D5 50%, #23D5AB 100%);
+background-size: 400% 400%; 
+animation: Gradient 1s ease infinite;**/
+--background: -webkit-color(#19bc9d);
+-webkit-animation-name: example;
+-webkit-animation-duration: 30s;
+-webkit-animation-iteration-count: infinite;
+
+@-webkit-keyframes example{
+0%{background-color: #19bc9d;}
+25%{background-color: #0f2332;}
+50%{background-color: #3297db;}
+75%{background-color: #34495e;}
+100%{background-color: #19bc9d;}
+
+}
+@keyframes example{
+0%{background-color: #19bc9d;}
+25%{background-color: #0f2332;}
+50%{background-color: #3297db;}
+75%{background-color: #34495e;}
+100%{background-color: #19bc9d;}
+}
+}
+
+ion-label{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+.tool{
+  --background: #f3f3f3;
+}
+.logout{
+  font-size: 20px;
+}

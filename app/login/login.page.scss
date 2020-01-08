@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,900|Open+Sans:400,400i&display=swap');
+.error-messages {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+    color: white;
+    text-align: center;
+}
+ion-toolbar {
+    --background: transparent;
+    --ion-color-base: transparent !important;
+    }
+form{
+    background-color:transparent;
+    //margin-top: 35%;
+}
+ion-content {
+        /**--background: linear-gradient(197deg, rgba(100,100,100,1) 0%, rgba(63,63,63,1) 13.5%, rgba(29,29,29,1) 33.33%, rgba(0,0,0,1) 100%) !important; 
+        **/
+        
+    /**--background: linear-gradient(25deg, #EE7752 0%, #E73C7E 25%, #23A6D5 50%, #23D5AB 100%);
+    background-size: 400% 400%; 
+    animation: Gradient 1s ease infinite;**/
+    --background: -webkit-color(#19bc9d);
+   -webkit-animation-name: example;
+   -webkit-animation-duration: 30s;
+   -webkit-animation-iteration-count: infinite;
+
+@-webkit-keyframes example{
+    0%{background-color: #19b1bc;}
+    25%{background-color: #0f2332;}
+    50%{background-color: #3297db;}
+    75%{background-color: #34495e;}
+    100%{background-color: #19bc9d;}
+
+}
+@keyframes example{
+    0%{background-color: #19b1bc;}
+    25%{background-color: #0f2332;}
+    50%{background-color: #3297db;}
+    75%{background-color: #34495e;}
+    100%{background-color: #19bc9d;}
+}
+
+    .scroll-content{
+        justify-content: center;
+        display: flex!important;
+        align-items: center!important;
+    }
+   
+    
+}
+ion-input{
+    --placeholder-opacity: 1;
+    --ion-background-color:rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;     
+}
+ion-button{
+    --opacity:	1;
+    font-family: 'Montserrat', sans-serif;
+    --ion-background-color: #3880ff;
+}
+.btn{
+    width: 310px;
+    margin-top: 15px;
+}
+
+.btn2{
+    --background: #0F2332;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    height: 50px;
+    width: 290px;
+    margin-top: 15px;
+}
+
+.image{
+    display: block;
+    margin: auto;
+}
+    
+.icons{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.powered{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    font-style: italic;
+    color: white;
+} 
+.logo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: white;  
+    font-size: 35px;
+    letter-spacing: 4px;
+}
+.apps{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: white;  
+}
